@@ -41,14 +41,14 @@ let package = Package(
         .core,
 
         // The Facebook Login SDK
-        .login,
+        .login,FBSDKLoginKit', '~> 8.0.0
 
         // The Facebook Share SDK
-        .share,
+        .share,FBSDKShareKit', '~> 8.0.0'
 
         // The Facebook Gaming Services SDK
         .gaming,
-    ],
+    ],FBSDKGamingServiceKit', '~> 8.0.0'
     targets: [
         // The kernel of the SDK
         .Prefixed.basics,
